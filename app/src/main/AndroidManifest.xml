@@ -26,6 +26,9 @@
             android:name=".TransferActivity"
             android:exported="true"
             android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".ConfirmTransferActivity"
+            android:exported="true" />
     </application>
 
 </manifest>
