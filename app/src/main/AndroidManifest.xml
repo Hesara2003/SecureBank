@@ -29,6 +29,9 @@
         <activity
             android:name=".ConfirmTransferActivity"
             android:exported="true" />
+        <activity
+            android:name=".TransferSuccessActivity"
+            android:exported="true" />
     </application>
 
 </manifest>
