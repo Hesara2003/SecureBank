@@ -22,6 +22,10 @@
         <activity
             android:name=".DashboardActivity"
             android:exported="true" />
+        <activity
+            android:name=".TransferActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize" />
     </application>
 
 </manifest>
