@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_navy">#062851</color>
+    <color name="brand_navy_pressed">#04203F</color>
+    <color name="screen_background">#F8F9FA</color>
+    <color name="surface_white">#FFFFFF</color>
+    <color name="surface_gray">#F1F3F5</color>
+    <color name="text_primary">#101828</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="text_on_navy">#FFFFFF</color>
+    <color name="link_blue">#0A5FC2</color>
+    <color name="info_blue_bg">#E8F1FB</color>
+    <color name="divider">#E5E7EB</color>
+    <color name="amount_credit">#1B8A5A</color>
+    <color name="amount_debit">#101828</color>
+</resources>

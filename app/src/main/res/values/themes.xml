@@ -1,0 +1,15 @@
+<resources>
+    <!-- MaterialComponents (not Material3) so the Widget.MaterialComponents.*
+         styles used by the layouts resolve correctly. Light-only: the screens
+         use a fixed light palette. -->
+    <style name="Base.Theme.SecureBank" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/brand_navy</item>
+        <item name="colorPrimaryVariant">@color/brand_navy_pressed</item>
+        <item name="colorOnPrimary">@color/text_on_navy</item>
+        <item name="colorSecondary">@color/link_blue</item>
+        <item name="android:windowBackground">@color/screen_background</item>
+        <item name="android:statusBarColor">@color/screen_background</item>
+    </style>
+
+    <style name="Theme.SecureBank" parent="Base.Theme.SecureBank" />
+</resources>
