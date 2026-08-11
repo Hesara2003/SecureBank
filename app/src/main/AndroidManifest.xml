@@ -7,6 +7,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SecureBank">
 
+        <!-- exported=true on every screen so each layout can be launched
+             directly with `adb shell am start` while previewing the UI. -->
         <activity
             android:name=".LoginActivity"
             android:exported="true"
@@ -17,6 +19,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="true" />
     </application>
 
 </manifest>
